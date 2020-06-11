@@ -2,10 +2,10 @@ FROM golang:1.13.5
 ENV GOPATH /go
 ENV PATH $PATH:$GOPATH/bin
 
-RUN mkdir -p /go/src/github.com/Tech-Design-Inc/sirius
-COPY . /go/src/github.com/Tech-Design-Inc/sirius
-WORKDIR /go/src/github.com/Tech-Design-Inc/sirius
-ENV PATH $PATH:/go/src/github.com/Tech-Design-Inc/sirius
+RUN mkdir -p /go/src/github.com/0907Sowiriro/MyApp
+COPY . /go/src/github.com/0907Sowiriro/MyApp
+WORKDIR /go/src/github.com/0907Sowiriro/MyApp
+ENV PATH $PATH:/go/src/github.com/0907Sowiriro/MyApp
 ENV GO111MODULE=on
 ENV APP_MODE=development
 
