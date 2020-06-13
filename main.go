@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/0907Sowiriro/MyAppByGolang/route"
 	"net/http"
 )
 
