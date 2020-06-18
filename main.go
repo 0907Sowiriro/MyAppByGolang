@@ -19,7 +19,6 @@ func main() {
 	mux.HandleFunc("/signup_account", signupAccount)
 	mux.HandleFunc("/authenticate", authenticate)
 
-
 	mux.HandleFunc("/movie/:id", Show)
 	mux.HandleFunc("/movie/create", Create)
 	mux.HandleFunc("/movie/:id/update", Update)
